@@ -168,6 +168,12 @@ if (context.revisionData.revisionKey && !context.revisionData.activatedRevisionK
 }
 ```
 
+### tls
+
+An optional tls configuration object for connecting to redis instances with encryption-in-transit enabled. Please see [https://github.com/luin/ioredis#tls-options](https://github.com/luin/ioredis#tls-options) for available options
+
+*Default:* `null`
+
 ### maxRecentUploads
 
 The maximum number of recent revisions to keep in Redis.
